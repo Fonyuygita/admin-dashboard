@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- material-cons here -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- css file here  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="general.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- let us create our left side bar to content -->
+
+    <div class="container">
+        <aside>
+            <!-- our logo is going to be at the top -->
+            <!-- top section start here -->
+
+            <div class="top">
+
+
+                <div class="logo">
+                    <!-- image goes here of the logo -->
+
+                    <img src="assets/logo.png" alt="">
+                    <!-- logo title -->
+                    <h2 class="h2">WAI <span class="danger">MBVE</span></h2>
+                </div>
+
+                <!-- our toggle btns here -->
+
+                <div class="close" id="close-btn">
+
+                    <span class="material-icons sharp">close</span>
+                </div>
+            </div>
+
+            <!-- top ends here -->
+
+            <div class="sidebar">
+                <a href="" class="active">
+                    <span class="material-icons sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+
+                <a href="">
+                    <span class="material-icons sharp">person</span>
+                    <h3>Customers</h3>
+                </a>
+
+
+                <a href="">
+                    <span class="material-icons sharp">receipt_long</span>
+                    <h3>Orders</h3>
+                </a>
+
+                <a href="">
+                    <span class="material-icons sharp">insights</span>
+                    <h3>Analysis</h3>
+                </a>
+
+
+                <a href="">
+                    <span class="material-icons sharp">mail_outline</span>
+                    <h3>Messages <sup class="sup">23</sup></h3>
+                    <!-- <sup><span class="msg_count">26 </span></sup> -->
+                    
+                </a>
+
+                <a href="">
+                    <span class="material-icons sharp">inventory</span>
+                    <h3>Products</h3>
+                </a>
+
+                <a href="">
+                    <span class="material-icons sharp">report_error</span>
+                    <h3>Reports</h3>
+                </a>
+
+                <a href="">
+                    <span class="material-icons sharp">settings</span>
+                    <h3>Settings</h3>
+                </a>
+
+                <a href="">
+                    <span class="material-icons sharp">add</span>
+                    <h3>Add Product</h3>
+                </a>
+
+
+                <a href="">
+                    <span class="material-icons sharp">logout</span>
+                    <h3>Logout </h3>
+                </a>
+
+            </div>
+        </aside>
+
+
+
+
+        <!-- end of aside -->
+
+
+        <!-- start of dashboard section -->
+
+        <main>
+
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insight">
+          
+
+
+                <div class="income">
+
+                    <span class="material-icons sharp">shop</span>
+
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total sales</h3>
+                            <h1>234565$</h1>
+                        </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+
+                                </svg>
+                                <div class="number">
+                                    <p>81%</p>
+                                </div>
+                            
+
+                        </div>
+                    </div>
+                        <small class="text-muted">all at once</small>
+                   
+
+
+
+
+                </div>
+
+                <div class="expenses">
+
+                    <span class="material-icons sharp">analytics</span>
+
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total sales</h3>
+                            <h1>234565$</h1>
+                        </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+
+                                </svg>
+                                <div class="number">
+                                    <p>81%</p>
+                                </div>
+                            
+
+                        </div>
+                    </div>
+                        <small class="text-muted">all at once</small>
+                   
+
+
+
+
+                </div>
+
+
+
+                <div class="sales">
+
+                    <span class="material-icons sharp">inventory</span>
+
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total sales</h3>
+                            <h1>234565$</h1>
+                        </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+
+                                </svg>
+                                <div class="number">
+                                    <p>81%</p>
+                                </div>
+                            
+
+                        </div>
+                    </div>
+                        <small class="text-muted">all at once</small>
+                   
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+<!-- recent orders section -->
+<div class="recent-orders">
+
+<h2>Recent Orders</h2>
+
+<!-- table here to show recent orders -->
+
+<table>
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Product Number</th>
+            <th>Payement</th>
+            <th>Status</th>
+            <th></th>
+    
+        </tr>
+     
+
+
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Cover Shoe</td>
+            <td>1234</td>
+            <td>Final</td>
+            <td class="warning">Pending</td>
+            <td class="primary">Details</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>Cover Shoe</td>
+            <td>1234</td>
+            <td>Final</td>
+            <td class="warning">Pending</td>
+            <td class="primary">Details</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>Cover Shoe</td>
+            <td>1234</td>
+            <td>Final</td>
+            <td class="warning">Pending</td>
+            <td class="primary">Details</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>Cover Shoe</td>
+            <td>1234</td>
+            <td>Final</td>
+            <td class="warning">Pending</td>
+            <td class="primary">Details</td>
+
+
+
+        </tr>
+
+        <tr>
+            <td>Cover Shoe</td>
+            <td>1234</td>
+            <td>Final</td>
+            <td class="warning">Pending</td>
+            <td class="primary">Details</td>
+
+
+
+        </tr>
+    </tbody>
+</table>
+
+</div>
+
+</main>
+
+<!-- right section -->
+
+<div class="right">
+<div class="top">
+
+    <button id="menu" class="menu-btn">
+        <span class="material-icons sharp ">menu</span>
+    </button>
+
+    <div class="theme-toggler">
+        <span class="material-icons sharp  active">light_mode</span>
+        <span class="material-icons sharp" id="themeToggler">dark_mode</span>
+
+    </div>
+
+    <div class="profile">
+        <div class="info">
+             <p>Hey <b>Jude</b></p>
+             <small class="text-muted">Admin</small>
+            </div>
+             <div class="profile-photo">
+                <img src="assets/profile.jpg" alt="">
+             </div>
+       
+    </div>
+</div>
+<!-- rnd of top section -->
+
+<!-- recent update section -->
+
+<div class="recent-update">
+    <h2>Recent Update</h2>
+    <div class="updates">
+        <div class="update">
+            <div class="profile-photo">
+                <img src="assets/profile.jpg" alt="">
+            </div>
+            <div class="messages">
+                <p><b>Dindze Rina</b>Thank you very much wai Mbve, transactions are very easy and fast, love the user interface too</p>
+                <small class="muted-text">1 Minute ago</small>
+            </div>
+        </div>
+
+        <div class="update">
+            <div class="profile-photo">
+                <img src="assets/profile.jpg" alt="">
+            </div>
+            <div class="messages">
+                <p><b>Fomonyuy Nancy</b> received, I am gratefull for this initiative</p>
+                <small class="muted-text">1 Minute ago</small>
+            </div>
+        </div>
+
+
+        <div class="update">
+            <div class="profile-photo">
+                <img src="assets/profile.jpg" alt="">
+            </div>
+            <div class="messages">
+                <p><b>Kila Jude</b> received his orders</p>
+                <small class="muted-text">1 Minute ago</small>
+            </div>
+        </div>
+
+
+
+        <div class="update">
+            <div class="profile-photo">
+                <img src="assets/jude.jpg" alt="">
+            </div>
+            <div class="messages">
+                <p><b>Wirba Anthony</b> received my product and already enjoying it, I am proud of wai mbve</p>
+                <small class="muted-text">1 Minute ago</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sales-analytics">
+    <h2>Sales Analytics</h2>
+    <div class="item online">
+        <div class="icon">
+            <span class="material-icons sharp">shopping_cart</span>
+        </div>
+        <div class="right">
+            <div class="info">
+                <h3>Online Orders</h3>
+                <small class="muted-text">last 24 hours</small>
+                <h5 class="success">54%</h5>
+                <h3>1239</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="item Customers">
+        <div class="icon">
+            <span class="material-icons sharp">shopping_cart</span>
+        </div>
+        <div class="right">
+            <div class="info">
+                <h3>New Customers</h3>
+                <small class="muted-text">last 24 hours</small>
+                <h5 class="success">54%</h5>
+                <h3>1239</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="item offline">
+        <div class="icon">
+            <span class="material-icons sharp">shopping_cart</span>
+        </div>
+        <div class="right">
+            <div class="info">
+                <h3>Offline Orders</h3>
+                <small class="muted-text">last 24 hours</small>
+                <h5 class="success">-34%</h5>
+                <h3>239</h3>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="item add-product">
+        <div>
+           <span class="material-icons sharp">add</span>
+           <h3>Add Product</h3> 
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+
+    </div>
+<script src="index.js"></script>
+</body>
+
+</html>
